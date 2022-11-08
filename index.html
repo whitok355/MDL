@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" id="theme-css" href="./style/dark-theme.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="tl-1">Preferences</h1>
+            <h4 class="tl-4">On this page you can configure the main system parameters available for customization</h4>
+            <form class="form">
+                <div class="form-el">
+                    <label class="form-el__label" for="title">Company Title</label><input name="title" type="text" class="form-el__input form-el__title" placeholder="enter company title">
+                </div>
+                <div class="form-el height relative">
+                    <label class="form-el__label">First Day</label>
+                    <div class="list-list">
+                        <label class="list-list__label form-el__day" id="day"></label>
+                        <div class="hidden-list hidden">
+                            <label class="hidden-list__label hidden-list__labale--top-radius" for="day1"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Sunday">Sunday</label>
+                            <label class="hidden-list__label" for="day2"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Monday">Monday</label>
+                            <label class="hidden-list__label" for="day3"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Tuesday">Tuesday</label>
+                            <label class="hidden-list__label" for="day4"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Wednesday">Wednesday</label>
+                            <label class="hidden-list__label" for="day5"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Thursday">Thursday</label>
+                            <label class="hidden-list__label" for="day6"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Friday">Friday</label>
+                            <label class="hidden-list__label hidden-list__labale--bottom-radius" for="day7"><input name="day" type="radio" class="hidden-list__input hidden-list__day" type="text" value="Saturday">Saturday</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-el height relative">
+                    <label class="form-el__label">Container Width</label>
+                    <div class="list-list">
+                        <label class="list-list__label form-el__width" id="width"></label>
+                        <div class="hidden-list hidden">
+                            <label class="hidden-list__label hidden-list__label--top-radius" for="width1"><input name="width" type="radio" class="hidden-list__input hidden-list__width" type="text" value="Fixed">Fixed</label>
+                            <label class="hidden-list__label" for="width2"><input name="width" type="radio" class="hidden-list__input hidden-list__width" type="text" value="Contain">Contain</label>
+                            <label class="hidden-list__label hidden-list__label--bottom-radius" for="width3"><input name="width" type="radio" class="hidden-list__input hidden-list__width" type="text" value="Cover">Cover</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-el height relative">
+                    <label class="form-el__label">Homepage</label>
+                    <div class="list-list">
+                        <label class="list-list__label form-el__page" id="page"></label>
+                        <div class="hidden-list hidden">
+                            <label class="hidden-list__label hidden-list__label--top-radius" for="page0"><input name="page" type="radio" class="hidden-list__input hidden-list__page" type="text" value="Starred Projects">Starred Projects</label>
+                            <label class="hidden-list__label" for="page1"><input name="page" type="radio" class="hidden-list__input hidden-list__page" type="text" value="Pet projects">Pet projects</label>
+                            <label class="hidden-list__label hidden-list__label--bottom-radius" for="page2"><input name="page" type="radio" class="hidden-list__input hidden-list__page" type="text" value="Projects into development">Projects into development</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-el">
+                    <label class="form-el__label">Indent Size</label><input name="size" type="number" class="form-el__input form-el__size" placeholder="Default">
+                </div>
+                <div class="form-el">
+                    <label class="form-el__label" id="code">Personal Code</label> 
+                    <div class="form-code relative">
+                        <input id='0' class="form-code__input" name="code" minLength="4" maxlength="4" type="text">
+                        <span class="form-code__retreat">-</span>
+                        <input id='1' class="form-code__input" name="code" minLength="4" maxlength="4" type="text">
+                        <span class="form-code__retreat">-</span>
+                        <input id='2' class="form-code__input" name="code" minLength="4" maxlength="4" type="text">
+                        <div class="form-code__discr">12 digits</div>
+                    </div>
+                </div>
+                <div class="form-el">
+                    <label class="form-el__label">Theme</label>
+                    <div class="radio-boxs">
+                        <div class="radio-box">
+                           <input class="radio-box__input radio-box__theme" id="light" type="radio" name="theme" value="light"><label class="radio-box__label">Light</label>
+                        </div>
+                        <div class="radio-box">
+                            <input class="radio-box__input radio-box__theme" id="dark" type="radio" name="theme" value="dark"><label class="radio-box__label">Dark</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-el left">
+                    <input type="submit" class="form-el__btn form-el-apply" id="apply" value="Apply and Save">
+                    <input type="reset" class="form-el__btn form-el-cancel" id="cancel" value="Cancel">
+                </div>
+            </form>
+        </div>
+        <footer class="footer">
+            <div class="footer-info">2020-2022 <a class="footer-info__link">Terms of Service</a> and <a class="footer-info__link"> Conditions</a></div>
+        </footer>
+    </div>
+    <script src="./script/index.js"></script>
+</body>
+</html>

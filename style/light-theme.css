@@ -1,0 +1,123 @@
+:root {
+  --lightGrey: #E5E5E5;
+  --mainWhite: #F8F8F8;
+  --mainBlack: #0B0A0A;
+  --lightGrow: #DFDADA;
+  --mainGrow: #887C7C;
+  --mainBlue: #2A75DB;
+}
+
+body {
+  background: var(--lightGrey);
+}
+
+.tl-1 {
+  color: var(--mainBlack);
+}
+
+.tl-4 {
+  color: var(--mainBlack);
+}
+
+.wrapper {
+  background: var(--lightBlack);
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
+}
+
+.form-el__label {
+  color: var(--mainBlack);
+}
+
+.form-el__input {
+  color: var(--mainBlack);
+  background: var(--lightGrow);
+  border: 1px solid var(--mainGrow);
+}
+
+.form-el__input::mainGrow {
+  color: var(--mainGrow);
+}
+
+.form-el__input:focus {
+  outline: 1px solid var(mainBlue);
+}
+
+.list-list {
+  background: var(--lightGrow);
+  outline: 1px solid var(--mainGrow);
+  color: var(--mainGrow);
+}
+
+.list-list__label {
+  color: var(--mainBlack);
+}
+
+.hidden-list {
+  background-color: var(--mainWhite);
+}
+
+.hidden-list__label {
+  color: var(--mainBlack);
+}
+
+.hidden-list__label:hover {
+  background: var(--lightGrow);
+}
+
+.form-code__input {
+  border: 1px solid var(--mainGrow);
+  background: var(--lightGrow);
+  color: var(--mainBlack);
+}
+
+.form-code__retreat {
+  color: var(--mainBlack);
+}
+
+.form-code__discr {
+  color: var(--mainGrow);
+}
+
+.radio-box__label {
+  color: var(--mainBlack);
+}
+
+.form-el-apply {
+  color: var(--mainBlue);
+  background: inherit;
+}
+
+.form-el-apply:hover {
+  color: var(--lightGrey);
+  background: var(--mainBlue);
+}
+
+.form-el-apply:focus {
+  outline: 1px solid var(--mainBlue);
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+}
+
+.form-el-cancel {
+  color: var(--mainBlue);
+  background: inherit;
+}
+
+.form-el-cancel:hover {
+  background: var(--lightGrow);
+}
+
+.form-el-cancel:focus {
+  outline: 1px solid var(--mainBlue);
+}
+
+.footer-info {
+  color: var(--mainGrow);
+}
+
+.footer-info__link {
+  color: #AAC9F1;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=light-theme.css.map */
